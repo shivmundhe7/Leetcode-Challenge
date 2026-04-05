@@ -3,7 +3,6 @@ class Solution:
         i = m - 1
         j = n - 1
         k = m + n - 1
-
         # Merge from back
         while i >= 0 and j >= 0:
             if nums1[i] > nums2[j]:
